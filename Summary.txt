@@ -1,0 +1,22 @@
+Summary of Changes:
+Externalized CSS & JS: Your styles are in style.css and scripts in script.js.
+Language Toggle:
+Buttons "العربية" / "English" in the header.
+data-ar and data-en attributes added to almost all user-facing text elements in index.html.
+script.js handles toggling body classes (lang-ar, lang-en) and updating dir attribute, then iterates through elements to switch their innerText and placeholder values.
+Admin Mode & Editing Buttons:
+"وضع التعديل" / "Edit Mode" button in the header.
+post-actions div with "تعديل" / "Edit" and "حذف" / "Delete" buttons placed within each article. These are hidden by default and shown when "Edit Mode" is active via the admin-mode class on the body.
+"إضافة مقال جديد" / "Add New Article" button above the main content, also toggled by admin mode.
+script.js includes demo alert functions for these buttons.
+Search Bar: Integrated into the header as requested.
+Social Sharing Buttons: Added to each post (after the "Read More" link) and the footer, using Font Awesome icons.
+Actual Images:
+The profile image: https://i.imgur.com/yN9t3Gv.png
+Post 1 (AI): https://i.imgur.com/eB442mJ.png
+Post 2 (Productivity): https://i.imgur.com/5J3M3J1.png
+Post 3 (Freelance): https://i.imgur.com/62iY8qP.png
+New Suggested Articles:
+"كيف تحمي نفسك وبياناتك في العصر الرقمي؟" (How to Protect Yourself and Your Data in the Digital Age?) - Category: الأمن السيبراني (Cybersecurity) - Image: https://i.imgur.com/qR5V4bB.png
+"نصائح لبناء روتين صحي لعقل وجسم سليم" (Tips for Building a Healthy Routine for a Sound Mind and Body) - Category: الصحة والعافية (Health & Wellness) - Image: https://i.imgur.com/w1i5W0V.png
+Categories in the sidebar have been updated to reflect these new topics.
